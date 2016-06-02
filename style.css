@@ -15,13 +15,17 @@ header {
 }
 
 header div {
-  padding: 25px;
+  padding: 25px 2% 25px 10%;
   display: inline-block;
   font-family: "Papyrus", serif;
-  font-size: 45px;
+  font-size: 20px;
   color: #ddd;
-  border-radius: 25px;
+  border-radius: 0 25px 25px 0;
   background-color: rgba(48, 48, 48, .80); /* make translucent */
+}
+
+header div h1 {
+    line-height: 20px;
 }
 
 header img {
