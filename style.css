@@ -1,5 +1,6 @@
 body {
   background-color: #000;
+  background-image: url("./img/bg-body.jpg");
   color: #FFF;
   font-family: Helvetica, sans-serif;
   margin: 0;
@@ -38,6 +39,13 @@ header img {
 #about {
   margin: 40px auto;
   padding: 0 10%;
+}
+
+#about div {
+  background-image: url("./img/bg-about.jpg");
+  padding: 10px 30px;
+  border-radius: 10px;
+  width: 80%;
 }
 
 #about  h1 {
