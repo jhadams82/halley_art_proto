@@ -7,7 +7,6 @@ body {
   background-image: url("./img/bg-body.jpg");
   color: #FFF;
   font-family: Helvetica, sans-serif;
-  font-size: 5vw;
   margin: 0;
   padding: 0;
 }
@@ -153,4 +152,10 @@ header div {
   position: absolute;
   bottom: 15px;
   right: 40px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 3vw;
+  }
 }
